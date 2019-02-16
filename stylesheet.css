@@ -1,12 +1,14 @@
 h1 {
-  color:blue;
-  text-align:center;
+  color:#072e42;
+  text-align:left;
 }
+
 h2 {
-  colour:green;
-  text-align:center;
+  color:#28a3e0;
+  text-align:left;
 }
+
 p	{
-  colour:red;
-  text-align:center;
+  color:#394951;
+  text-align:left;
 }
