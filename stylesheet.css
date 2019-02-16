@@ -1,23 +1,23 @@
 h1 {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   color:#072e42;
   text-align: left;
 }
 
 h2 {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   color:#28a3e0;
   text-align: left;
 }
 
 h3 {
-  font-family:sans-serif;
+  font-family: Arial, sans-serif;
   color:#d63b3b;
   text-align: left;
 }
 
 p	{
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   color:#394951;
   text-align: left;
 }
@@ -26,4 +26,29 @@ div {
   background-color: teal;
   width: 100px
   height: 400px;
+  margin: 30px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14pt;
+  border: 3px solid black;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%
+}
+
+th {
+  border:1px solid black;
+  text-align: center;
+  font-weight: bold;
+  background-color: lightgray;
+  padding: 5px;
+}
+
+td {
+  border:1px solid black;
+  text-align: center;
+  padding: 5px;
 }
