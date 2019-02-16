@@ -1,14 +1,19 @@
 h1 {
   color:#072e42;
-  text-align:left;
+  text-align: left;
 }
 
 h2 {
   color:#28a3e0;
-  text-align:left;
+  text-align: left;
+}
+
+h3 {
+  color:#d63b3b;
+  text-align: left;
 }
 
 p	{
   color:#394951;
-  text-align:left;
+  text-align: left;
 }
