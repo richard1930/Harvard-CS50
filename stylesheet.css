@@ -76,3 +76,7 @@ td {
   padding: 5px;
   text-align: center;
 }
+
+.name {
+  font-weight: bold;
+}
