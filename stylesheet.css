@@ -1,19 +1,23 @@
 h1 {
+  font-family: sans-serif;
   color:#072e42;
   text-align: left;
 }
 
 h2 {
+  font-family: sans-serif;
   color:#28a3e0;
   text-align: left;
 }
 
 h3 {
+  font-family:sans-serif;
   color:#d63b3b;
   text-align: left;
 }
 
 p	{
+  font-family: sans-serif;
   color:#394951;
   text-align: left;
 }
