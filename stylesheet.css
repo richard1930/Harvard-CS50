@@ -113,3 +113,9 @@ a::before {
   content: "\21d2 click here:";
   font-weight: bold;
 }
+
+@media print {
+  .screen-only {
+    display: none;
+  }
+}
