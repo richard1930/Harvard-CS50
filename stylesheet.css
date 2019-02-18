@@ -22,6 +22,11 @@ p	{
   text-align: left;
 }
 
+p::selection {
+    color: red;
+    background-color: yellow;
+}
+
 div {
   background-color: teal;
   width: 100px
@@ -85,4 +90,26 @@ td {
 ol > li {
   color:red;
   font-size: 20px;
+}
+
+input[type=text] {
+  background-color: red;
+}
+
+input[type=number] {
+  background-color: yellow;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+}
+
+button:hover {
+  background-color: darkgray;
+}
+
+a::before {
+  content: "\21d2 click here:";
+  font-weight: bold;
 }
