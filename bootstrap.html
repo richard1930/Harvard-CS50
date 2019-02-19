@@ -4,9 +4,47 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </header>
     <body>
+        <style>
+            .row {
+                padding: 50px;
+            }
+            .row > div {
+                padding: 20px;
+                background-color: grey;
+                border: 2px solid darkgray;
+                text-align: center;
+                margin: 5px
+            }
+        </style>
         <div class="container">
             <h1>start working with bootstrap</h1>
             <p>this is a page in which i've started to work with bootstrap</p>
+            <p></p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                this is the first block
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                this is the second block
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                this is the third block
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                this is the fourth block
+            </div>
+        </div>
+        <div class="container">
+              <div class="allert alert-primary" role="alert">
+                  this is a NEWS alert message!
+              </div>
+              <div class="allert alert-success" role="alert">
+                  this is a GOOD NEWS alert message!
+              </div>
+              <div class="allert alert-danger" role="alert">
+                  this is a BAD NEWS alert message!
+              </div>
         </div>
     </body>
 </html>
